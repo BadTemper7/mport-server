@@ -1,0 +1,25 @@
+{
+  "name": "mega-port-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@clerk/express": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "multer": "latest",
+    "bcryptjs": "latest",
+    "jsonwebtoken": "latest",
+    "socket.io": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}
